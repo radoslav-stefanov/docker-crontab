@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.17
 MAINTAINER radoslav@rstefanov.info
 
 RUN apk update && apk add dcron curl wget rsync ca-certificates docker bash && rm -rf /var/cache/apk/*
